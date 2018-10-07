@@ -1,7 +1,7 @@
 # Welcome
 <body>
  Wecome to my projects page. This is a summary of the machine learning projects I have explored recently.  
-<h1>Breast cancer dataset - Classification</h1>
+<h2>Breast cancer dataset - Classification</h2>
 
 <a href="final.html" title="final.html">Breast cancer Wisconsin - Classification</a>
 
