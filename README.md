@@ -11,7 +11,8 @@ Full analysis: <a href="final.html" title="final.html">Breast cancer Wisconsin -
 In a second iteration, I ensembled the 3 best performers with a majority vote classifier. <br />My final model was able to detect all the malignant cases in the sample (recall of 100%). It achieved a global accuracy score of 98%.</p>
 <br />
 <p>
-  <b>Tags: Machine Learning | Python | Classification<\b>
+  <b>Tags: Machine Learning | Python | Classification
+   <\b>
    <br />
 </p>
   <body/>
