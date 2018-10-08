@@ -13,7 +13,7 @@ My final predictions have been generated using a model using an ensembling of pr
 My Kaggle submission scored a RMSE of 0.12178 on the logarithm of the Sale price.  
 This ranked at the 987th place in the leaderboard (top 24% at the time of submission).  </p>
 <p>
-  <b>Tags: Machine Learning | R | Regression | Ensembling | XGBoost </b>
+  <b>Tags: Machine Learning | R | Regression | Ensembling | XGBoost | Features engineering</b>
   
 </p>
 
@@ -25,7 +25,7 @@ Full analysis: <a href="final.html" title="final.html">Breast cancer Wisconsin -
  I started by exploring the data, both analytically and visually, before implementing a number of classification algorithms (Logistic regression, Tree classifier, Random Forest, XGBoost, Support Vector Machine and Naive Bayes). 
 In a second iteration, I ensembled the 3 best performers with a majority vote classifier. <br />My final model was able to detect all the malignant cases in the sample (recall of 100%). It achieved a global accuracy score of 98%.</p>
 <p>
-  <b>Tags: Machine Learning | Python | Classification </b>
+  <b>Tags: Machine Learning | Python | Classification | Data visualisation</b>
   
 </p>
   </body>
