@@ -1,7 +1,7 @@
 # Welcome
 <body>
  Wecome to Data Science portfolio. This is an overview on some data science projects I have been exploring recently. <br />
- <p>Connect on Linkedin: <a href="https://www.linkedin.com/in/rosalienoel/">rosalienoel</a><\p>
+ <p>Connect on Linkedin: <a href="https://www.linkedin.com/in/rosalienoel/">rosalienoel</a>
 <h2>House Prices - Regression models in R</h2>
 
 Full analysis: <a href="houseprice.html" title="houseprice.html">House Prices - Regression models in R</a>
