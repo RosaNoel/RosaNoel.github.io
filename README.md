@@ -1,6 +1,6 @@
 # Welcome
 <body>
- Wecome to Data Science portfolio. This is an overview on some data science projects I have been exploring recently. 
+ Wecome to my Data Science portfolio. This is an overview on some data science projects I have been exploring recently. 
 
 <h2>House Prices - Regression models in R</h2>
 
