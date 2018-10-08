@@ -17,7 +17,7 @@ This ranked at the 987th place in the leaderboard (top 24% at the time of submis
   
 </p>
 
-<h2>Breast cancer dataset - Classification</h2>
+<h2>Breast cancer dataset - Classification in Python</h2>
 
 Full analysis: <a href="final.html" title="final.html">Breast cancer Wisconsin - Classification</a>
 
