@@ -4,7 +4,7 @@
 # Welcome
 <body>
  Welcome to my Data Science portfolio. This is an overview of some data science projects I have been exploring recently. 
-
+<hr>
 <h2>House Prices - Regression models in R</h2>
 
 Full analysis: <a href="houseprice.html" title="houseprice.html">House Prices - Regression models in R</a>
@@ -20,7 +20,7 @@ This ranked at the 987th place in the leaderboard (top 24% at the time of submis
   <b>Tags: Machine Learning | R | Regression | Ensembling | XGBoost | Features engineering</b>
   
 </p>
-
+<hr>
 <h2>Breast cancer dataset - Classification in Python</h2>
 
 Full analysis: <a href="final.html" title="final.html">Breast cancer Wisconsin - Classification</a>
