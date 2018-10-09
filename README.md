@@ -7,7 +7,7 @@
 
 <h2>House Prices - Regression models in R</h2>
 <hr>
-Full analysis: <a href="houseprice.html" title="houseprice.html">House Prices - Regression models in R</a>
+<strong>Detailed analysis</strong>: <a href="houseprice.html" title="houseprice.html">House Prices - Regression models in R</a>
 
  <p>This is a presentation of my solution for the Kaggle challenge <a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques">House Prices: Advanced Regression Techniques</a>, a classic data science competition.<br />
 The dataset is a refreshed version of the famous 'Boston house price' data set. It contains observations about the sold prices for residential real estate in Ames, Ohio, for a period between 2006 and 2010, along with a number of house attributes.<br />
@@ -23,7 +23,7 @@ This ranked at the 987th place in the leaderboard (top 24% at the time of submis
 
 <h2>Breast cancer dataset - Classification in Python</h2>
 <hr>
-Full analysis: <a href="final.html" title="final.html">Breast cancer Wisconsin - Classification</a>
+<strong>Detailed analysis</strong>: <a href="final.html" title="final.html">Breast cancer Wisconsin - Classification</a>
 
  <p>This project is based on the Breast Cancer Wisconsin data, published by UCI Machine learning. It is implemented in Python. The diagnosis (Benign/Malignant) must be predicted from a series of cell attributes (concavity, dimensions, symmetry, ...)<br />
 I Fist explored the dataset, both analytically and visually, before implementing a number of classification algorithms (Logistic regression, Tree classifier, Random Forest, XGBoost, Support Vector Machine and Naive Bayes). 
