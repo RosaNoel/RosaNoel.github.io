@@ -4,7 +4,7 @@
 # Welcome
 <body>
  Welcome to my Data Science portfolio. This is an overview of some data science projects I have been exploring recently. <br />
-<hr>
+
 <h2>House Prices - Regression models in R</h2>
 <hr>
 Full analysis: <a href="houseprice.html" title="houseprice.html">House Prices - Regression models in R</a>
