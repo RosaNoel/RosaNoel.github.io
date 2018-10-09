@@ -20,7 +20,7 @@ This ranked at the 987th place in the leaderboard (top 24% at the time of submis
   <b>Tags: Machine Learning | R | Regression | Ensembling | XGBoost | Features engineering</b>
   
 </p>
-<hr>
+
 <h2>Breast cancer dataset - Classification in Python</h2>
 <hr>
 Full analysis: <a href="final.html" title="final.html">Breast cancer Wisconsin - Classification</a>
