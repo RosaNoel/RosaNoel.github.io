@@ -30,6 +30,6 @@ I Fist explored the dataset, both analytically and visually, before implementing
 In a second iteration, I ensembled the 3 best performers with a majority vote classifier. <br />My final model was able to detect all the malignant cases in the sample (recall of 100%). It achieved a global accuracy score of 98%.</p>
 <p>
   <b>Tags: Machine Learning | Python | Classification | Data visualisation</b>
- <hr> 
+
 </p>
   </body>
