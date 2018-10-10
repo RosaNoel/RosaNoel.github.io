@@ -1,9 +1,7 @@
-<head>
-  <title>Rosalie Noel</title>
-</head>
+
 # Welcome
 <body>
- Welcome to my Data Science portfolio. This is an overview of some data science projects I have been exploring recently. <br />
+ Welcome to my Data Science page. This is an overview of some data science projects I have been exploring recently. <br />
 
 <h2>House Prices - Regression models in R</h2>
 <hr>
