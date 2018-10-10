@@ -11794,7 +11794,7 @@ The best performer among those base models, a simple classification tree,  achie
  2.4 <a href="#EDAperi">Relationship between area, perimeter and radius</a><br>
  2.5 <a href="#EDAse">Relationship between _se, _mean, and _worst values</a><br>
  2.6 <a href="#EDAconclusion">Conclusion</a> </li>
-<li><a href="#prepa">Preparation of the predictive modeling</a><br>
+<li><a href="#prepa">Preparation of the predictive modelling</a><br>
  3.1 <a href="#perfo">Performance measurement strategy</a><br>
  3.2 <a href="#train">Train - test split</a><br>
  3.3 <a href="#preproc">Pre-processing: Normalise, center and scale</a>   </li>
@@ -13212,7 +13212,7 @@ The dataset contains 19  variables after removal.
 <div class="text_cell_render border-box-sizing rendered_html">
     <p>Note that I had also explored dimensionality reduction with a PCA, but this did not improve the predictive power of the models, while this unsupervised thechnique has a cost in terms of interpretability.</p>
 
-<h1 id="Preparation-of-the-predictive-modeling">Preparation of the predictive modeling<a id="prepa" /><a class="anchor-link" href="#Preparation-of-the-predictive-modeling">&#182;</a></h1><h2 id="Performance-measurement-strategy">Performance measurement strategy<a id="perfo" /><a class="anchor-link" href="#Performance-measurement-strategy">&#182;</a></h2><p>A commonly used performance metric is the classification <strong>accuracy</strong>, defined as the percentage of observation correctly classified. A naive algorithm that would classify every observation as benign, would achieve a 63% accuracy on this dataset, which is the proportion of benign observations.</p>
+<h1 id="Preparation-of-the-predictive-modelling">Preparation of the predictive modelling<a id="prepa" /><a class="anchor-link" href="#Preparation-of-the-predictive-modelling">&#182;</a></h1><h2 id="Performance-measurement-strategy">Performance measurement strategy<a id="perfo" /><a class="anchor-link" href="#Performance-measurement-strategy">&#182;</a></h2><p>A commonly used performance metric is the classification <strong>accuracy</strong>, defined as the percentage of observation correctly classified. A naive algorithm that would classify every observation as benign, would achieve a 63% accuracy on this dataset, which is the proportion of benign observations.</p>
 <p>This is not the measure that we will adopt for this dataset, as we want to <strong>focus on the detection of all malignant cells</strong>. We are ready to accept (<strong>False Positive</strong>), i.e., at the cost of a stressful experience, a patient would be tagged as positive, sent to additional screening and then cleared for breast cancer. But we absolutely want to avoid (<strong>False Negative</strong>), where a patient is diagnosed with breast cancer and therefore is not receiving appropriate treatement.</p>
 <p>With this constraint in mind, we use the following metrics to assess the quality of  the classifiers:</p>
 <p><strong>Sensitivity / Recall</strong></p>
@@ -13229,8 +13229,8 @@ The dataset contains 19  variables after removal.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Train---test-split">Train - test split<a id="train" /><a class="anchor-link" href="#Train---test-split">&#182;</a></h2><p>Let's get the data ready for the predictive modeling.<br>
-First, let's split the dataset between <strong>train</strong> and <strong>test</strong>. Because the datset is quite small, I will only keep 15% of the observations as test set. This represents a random sample of 86 observations, 32 of which (37%) are expected to be malignant.</p>
+<h2 id="Train---test-split">Train - test split<a id="train" /><a class="anchor-link" href="#Train---test-split">&#182;</a></h2><p>Let's get the data ready for the predictive modelling.<br>
+First, let's split the dataset between <strong>train</strong> and <strong>test</strong>. Because the dataset is quite small, we will only keep 15% of the observations as test set. This represents a random sample of 86 observations, 32 of which (37%) are expected to be malignant.</p>
 
 </div>
 </div>
@@ -13465,7 +13465,7 @@ Let's also implement some utility functions that will help us to assess the qual
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Let's go!</p>
+<p>We are now ready. Let's go! </p>
 <h3 id="Naive-Bayes">Naive Bayes<a id="nb" /><a class="anchor-link" href="#Naive-Bayes">&#182;</a></h3>
 </div>
 </div>
@@ -14108,9 +14108,11 @@ All        60  26   86
 <li>A classification tree, which achieved the best test score,</li>
 <li>A random forest: the model achieved a great performance on the train set, and its test result is better than the gradient boosting one.</li>
 </ul>
-<p>The algorithms behind those 3 models are sufficiently different to achieve an intersting diversity to fit a majority vote classifier.</p>
+<p>The algorithms behind those 3 models are sufficiently different to achieve an intersting diversity to fit a 
+    classifier.</p>
 <h2 id="Round-two---Majority-vote-classifier">Round two - Majority vote classifier<a id="vote" /><a class="anchor-link" href="#Round-two---Majority-vote-classifier">&#182;</a></h2>
 </div>
+    <p> We will combine the results with a majority vote classifier</p>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
@@ -14184,7 +14186,7 @@ All        56  30   86
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Conclusion">Conclusion<a id="conclusion" /><a class="anchor-link" href="#Conclusion">&#182;</a></h1><p>The majority vote classifier, based on a Logistic regression, Tree classifier and Random Forest, achieves a <strong>100% recall</strong> on the validation set. That means that <strong>all the malignant cells are now detected by the classifier.</strong><br>
-2 samples have been classified as Malignant when actually Benign. This means that <strong>an observation flagged as malignant by the classifier has a 93% probability to be actually malignant</strong>. The prevalence of breast cancer in the sample population is 33%.</p>
+2 samples have been classified as Malignant when actually Benign. This means that <strong>an observation flagged as malignant by the classifier has a 93% probability to be actually malignant</strong>. </p>
 
 </div>
 </div>
