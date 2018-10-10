@@ -11777,8 +11777,8 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <a href="https://rosanoel.github.io/">Back to home page</a>
 <h1 id="Breast-cancer-Wisconsin-dataset---Classification">Breast cancer Wisconsin dataset - Classification<a class="anchor-link" href="#Breast-cancer-Wisconsin-dataset---Classification">&#182;</a></h1><p><em>Author : Rosalie Noel</em></p>
-<h1 id="Executive-summary">Executive summary<a class="anchor-link" href="#Executive-summary">&#182;</a></h1><p>1 in 8 women in New South Wales will develop breast cancer in their lifetime<a href="https://www.breastscreen.nsw.gov.au/about-breast-cancer">*</a>. An early diagnosis and prompt treatement is critical for the patient's survival outlook. The 5-year relative survival rate for women with stage 0 or stage I breast cancer is close to 100%<a href="https://www.cancer.org/cancer/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-survival-rates.html">*</a>, while this rate drops to around 22% when the cancer has spread to other parts of the body.</p>
-<p>This project is based on the <a href="https://www.kaggle.com/uciml/breast-cancer-wisconsin-data">Breast Cancer Wisconsin</a> data, published by UCI Machine learning. 
+<h1 id="Executive-summary">Executive summary<a class="anchor-link" href="#Executive-summary">&#182;</a></h1><p>1 in 8 women in New South Wales will develop breast cancer in their lifetime<a href="https://www.breastscreen.nsw.gov.au/about-breast-cancer">*</a>. An early diagnosis and prompt treatement is critical for the patient's survival outlook. The 5-year relative survival rate for women with stage 0 or stage I breast cancer is close to 100%<a href="https://www.cancer.org/cancer/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-survival-rates.html">*</a>, while this rate drops to around 22% when the cancer has spread to other parts of the body (stage IV).</p>
+<p>This project is based on the <a href="https://www.kaggle.com/uciml/breast-cancer-wisconsin-data">Breast Cancer Wisconsin</a> dataset, published by UCI Machine learning. 
 The dataset contains information extracted from digitized image of breast mass cell nuclei, along with the associated  diagnosis (Benign / Malignant).
 With 569 samples, it is a pretty small dataset. It is relatively balanced with 357 benign and 212 malignant observations.</p>
 <p>This was one of my first projects in Python. It gave me the opportunity to explore the implementation and tuning of supervised classification algorithms in this language.</p>
@@ -13152,7 +13152,6 @@ We will explore this relationship for a sample of variables: smoothness, concavi
 <li>removing the <strong>perimeter</strong> variables, as they are direclty linked to the <strong>radius</strong> ones,</li>
 <li>removing the <strong>_mean</strong> variables.</li>
 </ul>
-<p>Note that I had also explored dimensionality reduction with a PCA, but this did not improve the predictive power of the models, while this unsupervised thechnique has a cost in terms of interpretability.</p>
 
 </div>
 </div>
@@ -13211,6 +13210,8 @@ The dataset contains 19  variables after removal.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+    <p>Note that I had also explored dimensionality reduction with a PCA, but this did not improve the predictive power of the models, while this unsupervised thechnique has a cost in terms of interpretability.</p>
+
 <h1 id="Preparation-of-the-predictive-modeling">Preparation of the predictive modeling<a id="prepa" /><a class="anchor-link" href="#Preparation-of-the-predictive-modeling">&#182;</a></h1><h2 id="Performance-measurement-strategy">Performance measurement strategy<a id="perfo" /><a class="anchor-link" href="#Performance-measurement-strategy">&#182;</a></h2><p>A comonly used performance metric is the classification <strong>accuarcy</strong>, defined as the percentage of observation correctly classified. A naive algorithm that would classify every observation as benign, would achieve a 63% accuracy on this dataset, which is the proportion of benign observations.</p>
 <p>This is not the measure that we will addopt for this dataset, as we want to <strong>focus on the detection of all malignant cells</strong>. We are ready to accept (<strong>False Positive</strong>), i.e., at the cost of a stressful experience, a patient would be tagged as postitive, sent to additional sreening and then cleared for breat cancer. But we absolutely want to avoid (<strong>False Negative</strong>), where a patient would receive the appropiate treatement while she actually has a breast cancer.</p>
 <p>With this constraint in mind, we use the following metrics to assess the quality of  the classifiers:</p>
