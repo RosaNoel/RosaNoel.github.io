@@ -24,8 +24,8 @@ This ranked at the 987th place in the leaderboard (top 24% at the time of submis
 <strong>Detailed analysis</strong>: <a href="final.html" title="final.html">Breast cancer Wisconsin - Classification</a>
 
  <p>This project is based on the Breast Cancer Wisconsin data, published by UCI Machine learning. It is implemented in Python. The diagnosis (Benign/Malignant) must be predicted from a series of cell attributes (concavity, dimensions, symmetry, ...)<br />
-I Fist explored the dataset, both analytically and visually, before implementing a number of classification algorithms (Logistic regression, Tree classifier, Random Forest, XGBoost, Support Vector Machine and Naive Bayes). 
-In a second iteration, I ensembled the 3 best performers with a majority vote classifier. <br />My final model was able to detect all the malignant cases in the sample (recall of 100%). It achieved a global accuracy score of 98%.</p>
+I first explored the dataset, both analytically and visually, before implementing a number of classification algorithms (Logistic regression, Tree classifier, Random Forest, XGBoost, Support Vector Machine and Naive Bayes). 
+In a second iteration, I ensembled the 3 best performing models with a majority vote classifier. <br />My final model was able to detect all the malignant cases in the sample (recall of 100%). It achieved a global accuracy score of 98%.</p>
 <p>
   <b>Tags: Machine Learning | Python | Classification | Data visualisation</b>
 
